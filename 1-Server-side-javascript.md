@@ -16,4 +16,4 @@ Node's rise in use is due to the improved developer satisfaction and productivit
 Isomorphic JavaScript programming allows developers to write and execute the same code in the client and server.  The client and server can now collaborate in a way that wasn't possible before and therefore address and improve upon some of the shortcomings each side previously had.  Another benefit is that there is less code to write for the developers and code redundancy can be avoided as the client and server can now share code.  Development times are reduced and testing is more efficient because developers no longer have to code the same functionality in two different programming languages for the client and server. Examples of companies using Node.js are NASA, Uber, PayPal, Trello and LinkedIn.
 
 3. Draw a diagram of a full-stack web application and its key components.
-  WDT-Node-Module4/1-full-stack-app-diagram.JPG
+![Link to Diagram](WDT-Node-Module4/1-full-stack-app-diagram.JPG)
