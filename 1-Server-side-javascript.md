@@ -1,13 +1,6 @@
 1. In your own words highlight the differences in functionality and purposes Client-Side and Server-Side code serves in a full-stack web application.
 
-| Server-Side                                                                        | Client-Side                                                                      |
-|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| Stores persistent date (user profiles, instatweets, etc)                           | Separated by the user's browser                                                  |
-| Cannot be seen by the user                                                         | Reacts to user input                                                             |
-| Can only respond to HTTP requests for a particular URL, not any kind of user input | Can be seen and edited by the user in full                                       |
-| Creates the page that the user finally sees                                        | Cannot store anything that lasts beyond a page refresh                           |
-|                                                                                    | Cannot read files off of a server directly, must communicated with HTTP requests |
-|                                                                                    | Creates the page that the user finally sees                                      |
+The client-side (browser) is to render web pages and all it's looks and styles.  The purpose of the server is to serve the code for those pages.  In terms of function, the client-side sends requests to the server, retrieves data from it, and interacts with local storage(cookies) while the server responds to requests, processes user input and interacts with permanent storage (database).  The browser has a window and document object, the server does not.  The client-side interfaces with HTML and the DOM where the server does not.  The client side uses AJAX to make HTTP requests where the server makes them directly.
 
 2. What explains Nodes' rise in popularity and use? What does "Isomorphic JavaScript programming" mean? Provide some real-world examples not listed in this checkpoint of companies using Node.js.
 
