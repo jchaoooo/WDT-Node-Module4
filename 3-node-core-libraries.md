@@ -9,9 +9,11 @@ The `fs` module provides an API for interacting with the file system.  It provid
 Synchronous means that the code runs in sequential order waiting for each line of code to finish executing before starting the next.  This is why sync code is called "blocking".  The execution of subsequent lines of code will be blocked from running until the current operation is complete.  Asynchronous on the other hand is the opposite.  The code does not wait for the current line to execute before moving on to run the next line.  Thus, asynchronous is called "non-blocking" because it does not block subsequent lines from running waiting for the current operation to finish.
 
 3. Why are modules used?
+
 Modules are the node equivalent of libraries in the front-end.  IT helps us deal with the complexity of large software programs and systems by decomposition into smaller pieces.  Modules and libraries are also used to save time by leveraging the effort of other developers.  We dont waste time reinventing the wheel when a perfectly fine solution already exists.  Instead of including everything upfront with a large program full of features and code we never need, using a library/module approach allows us to include the items we truly require/want.
 
 4. Why are libraries such as fs used in Node programming?
+
 Many of the node libraries are used to help bridge the gap between operation of javascript client-side in the browser and what we need to have it do in a server environment.
 
 CODE PRACTICE
